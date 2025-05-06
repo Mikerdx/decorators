@@ -1,0 +1,20 @@
+# GROUP 4 DECORATORS PRESENTATION
+## DECORATORS IN PYTHON
+A decorator is a function that modifies or enhances another function without changing its code directly.It makes repo more beautiful and easier to read.
+It is a command in python that starts whith @ symbol and are used before functions ,classes or methods.
+
+### WHY USE IT 
+Easy to reuse 
+Keeps the code clean 
+Easy to maintain
+
+#### ARGUEMENT BASE 
+What if our original function takes arguments?
+We just pass them along inside the wrapper!
+   
+**Python has also inbuilt decorators like**
+@staticmethod
+@classmethod
+@property
+
+Thank you for your time @Group 4

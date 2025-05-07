@@ -11,10 +11,22 @@ Easy to maintain
 #### ARGUEMENT BASE 
 What if our original function takes arguments?
 We just pass them along inside the wrapper!
+
+## Types of decorators
+1 Function decorators - takes a function as input and returns a new function 
+2 Method decorators -used to decorate a method within a class
+3 Class decorators -modifies behaviour of a class
    
 **Python has also inbuilt decorators like**
 @staticmethod
 @classmethod
 @property
+## Chaining decorators
+This means decorating a function with multiple decorators
+
+#### wrapper functions
+Wrapper is a nested function inside the decorator.It wraps the original function,adding additional functionality
+*args:This collects any positional arguements passed to the decorated function into a tuple (Tuple = ordered, immutable list)
+**kwargs:This collects any keyword arguements passed to the decorated function into a dictionary( collection of key-value pairs)
 
 Thank you for your time @Group 4

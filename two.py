@@ -1,5 +1,5 @@
 def add_sprinkles(function):
-    def wrapper():
+    def wrapper(): #is a function that takes another function as an argurment,adds some functionality to it and then returns a new function
         print("*You add sprinkles*")
         function()
     return wrapper
